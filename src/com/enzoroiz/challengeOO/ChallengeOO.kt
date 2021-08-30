@@ -1,6 +1,4 @@
-package academy.learnprogramming.oochallenge
-
-import academy.learnprogramming.javacode.MountainBike
+package com.enzoroiz.challengeOO
 
 open class KotlinBicycle(var cadence: Int, var speed: Int, var gear: Int = 73) {
     fun applyBrake(decrement: Int) {
