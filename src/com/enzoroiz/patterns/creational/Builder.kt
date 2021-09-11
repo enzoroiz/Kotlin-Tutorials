@@ -86,9 +86,9 @@ class Computer private constructor(private val builder: ComputerBuilder) {
     }
 }
 
+// KOTLIN LIKE
 // INSTEAD OF USING A BUILDER LIKE THIS
 // IT'S BETTER TO USE KOTLIN LIKE DATA CLASS TO ACHIEVE THE SAME
-
 data class AdvancedComputer(
     val cpu: String,
     val memory: String,
