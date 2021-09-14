@@ -22,6 +22,7 @@ fun main(args: Array<String>) {
 // Through composition it's separated the logic for Account Type and BankAccount
 // The BankAccount now 'has an' account type and it acts like a Bridge
 // Between the Refined Abstraction (N26BankAccount) and the Implementers (AccountType / SavingsAccount - ActiveAccount)
+// Basically you separate the BankAccount hierarchy from the AccountType hierarchy
 
 interface AccountType {
     fun deposit(amount: Int)
