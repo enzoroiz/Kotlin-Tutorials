@@ -83,7 +83,7 @@ fun main(args: Array<String>) {
     waiters.last().sumUpOrders()
 }
 
-// Mediator pattern aims to centralize the communication across objects at one given point
+// Mediator Pattern aims to centralize the communication across objects at one given point
 // Instead of the objects (Customer, Waiter, Chef) having to know and manage the interactions within each other,
 // they delegate it to the mediator (assigns waiters to customers, chefs to orders, etc...)
 
