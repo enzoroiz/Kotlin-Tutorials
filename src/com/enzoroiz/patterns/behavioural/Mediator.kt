@@ -29,7 +29,7 @@ fun main(args: Array<String>) {
             customers[0],
             listOf(
                 CustomerOrderItem(
-                    "Water 200ml",
+                    "Water 500ml",
                     4.50
                 ),
                 CustomerOrderItem(
